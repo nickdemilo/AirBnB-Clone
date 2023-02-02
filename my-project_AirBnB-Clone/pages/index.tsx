@@ -1,4 +1,3 @@
-import type { NextPage } from "next"
 import Head from "next/head"
 import Header from "../components/Header"
 import Banner from "../components/Banner"
@@ -22,6 +21,7 @@ interface HomeProps {
   exploreData: ExploreData[];
   cardsData: CardsData[];
 }
+
  export default function Home({ exploreData, cardsData }: HomeProps) {
   return (
     <div>
