@@ -26,7 +26,7 @@ interface HomeProps {
   return (
     <div>
       <Head>
-        <title>AirBnB-Clone</title> 
+        <title>AirBnB Clone</title> 
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
